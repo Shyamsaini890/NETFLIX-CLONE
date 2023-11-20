@@ -49,7 +49,7 @@ const Signin = () => {
           </div>
           <div className="text-[#ffffffcc]">
             <p>
-              This page is protected by Google reCAPTCHA to ensure you're not a
+              This page is protected by Google reCAPTCHA to ensure youre not a
               bot. Learn more.
             </p>
           </div>

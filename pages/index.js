@@ -37,6 +37,7 @@ const Index = () => {
         {faqData.map((item, i) => {
           return (
             <FAQ
+              key={i}
               isActive={active == i}
               setActive={setActive}
               index={i}

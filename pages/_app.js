@@ -4,7 +4,7 @@ import React from "react";
 import "@/app/globals.css";
 import { useRouter } from "next/router";
 
-const _app = ({ Component, pageProps }) => {
+const App = ({ Component, pageProps }) => {
   const path = useRouter().asPath;
   console.log(path);
   return (
@@ -16,4 +16,4 @@ const _app = ({ Component, pageProps }) => {
   );
 };
 
-export default _app;
+export default App;
